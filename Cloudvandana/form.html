@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Customer Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="forms.css">
+</head>
+<body>
+	<form>
+		<h1>Customer survey form</h1>
+		<hr>
+		<div class="details">
+			<label>Name</label><br><br>
+				<input type="text" placeholder="FIRST NAME" required>
+				<input type="text" placeholder="LAST NAME" class="align" required><br><br>
+
+				<label>Email</label>
+				<input type="email" name="email" required><br><br>
+
+				DOB <input type="date" name="birth" required><br><br>
+
+				Country
+				<select name="country" id="country" required>
+					<option value=" select"> Select</option>
+					<option value="Australia">Australia</option>
+					<option value="china">china</option>
+					<option value="canada">canada</option>
+					<option value="denmark">denmark</option>
+					<option value="India">India</option>
+					<option value="US">Us</option>
+					<option value="Uk">Uk</option>
+				</select><br><br>
+				Mobile Number<input type="phone" name="mobile" required><br><br>
+				
+
+				<label>Gender :</label>
+				Male<input type="radio" name="g">
+				Female<input type="radio" name="g"><br><br>
+
+				
+
+				<br> <br> <button type="submit" name="submit">Submit</button>
+				 <button type="reset" name="reset">Reset</button>
+				
+		</div>
+	</form>
+	
+</body>
+</html>
